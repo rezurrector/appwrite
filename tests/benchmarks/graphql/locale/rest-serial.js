@@ -1,4 +1,8 @@
 import http from 'k6/http';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 export const options = {
     vus: 20,
     duration: '60s',

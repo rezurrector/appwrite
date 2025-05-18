@@ -1,4 +1,3 @@
-/.vscode/
 /vendor/
 /node_modules/
 /tests/resources/storage/
@@ -17,3 +16,6 @@ dev/yasd_init.php
 Makefile
 appwrite.json
 /.zed/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
